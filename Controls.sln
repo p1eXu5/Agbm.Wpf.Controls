@@ -3,9 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{444C4BCC-F1D8-41BE-B8CD-A5070A522E8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{65593FF8-B6C3-412D-BF2E-93CAEA25FA44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleDiagram", "Code\CircleDiagram\CircleDiagram.csproj", "{DE5D4630-BD1E-40F9-AD77-47895239B27C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design", "Tests\Design\Design.csproj", "{56713957-EEAE-47B1-B48A-1130A285D677}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE5D4630-BD1E-40F9-AD77-47895239B27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5D4630-BD1E-40F9-AD77-47895239B27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5D4630-BD1E-40F9-AD77-47895239B27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5D4630-BD1E-40F9-AD77-47895239B27C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56713957-EEAE-47B1-B48A-1130A285D677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56713957-EEAE-47B1-B48A-1130A285D677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56713957-EEAE-47B1-B48A-1130A285D677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56713957-EEAE-47B1-B48A-1130A285D677}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE5D4630-BD1E-40F9-AD77-47895239B27C} = {444C4BCC-F1D8-41BE-B8CD-A5070A522E8B}
+		{56713957-EEAE-47B1-B48A-1130A285D677} = {65593FF8-B6C3-412D-BF2E-93CAEA25FA44}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C7D27435-26EE-4DBC-831A-46CB8E195AF0}
